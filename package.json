@@ -1,0 +1,34 @@
+{
+  "name": "azcrypt",
+  "version": "0.2.0",
+  "description": "A CLI that does things",
+  "main": "index.js",
+  "_comments": {
+    "Intro": "To run as a normal npm extension:",
+    "step_1": "add the bin like below",
+    "step_2": "give it a name and file location that points to the main js file",
+    "step_3": "run npm install -g from this folder",
+    "step_4": "run npm link from this folder to have changes in source move to dist",
+    "step_5": "run like a normal npm package, do ex. azcrypt --help to test if successful"
+  },
+  "bin": {
+    "azcrypt": "./index.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Alex Cruz",
+  "license": "ISC",
+  "dependencies": {
+    "cfonts": "^2.1.3",
+    "chalk": "^2.4.1",
+    "chart": "github:jstrace/chart",
+    "crypto-js": "^3.1.9-1",
+    "figures": "^2.0.0",
+    "log-symbols": "^2.2.0",
+    "ora": "^3.0.0",
+    "progress": "^2.0.0",
+    "vorpal": "^1.12.0",
+    "yn": "^2.0.0"
+  }
+}
